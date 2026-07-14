@@ -12,7 +12,6 @@ export default function Footer() {
                         IČO: 12345678 | Jablonec nad Nisou, Česká republika
                     </p>
                 </div>
-
                 <nav className="flex items-center gap-6 font-mono text-xs uppercase tracking-widest text-fog">
                     <a href="#services" data-cursor="link" className="transition-colors hover:text-bone">
                         Služby
