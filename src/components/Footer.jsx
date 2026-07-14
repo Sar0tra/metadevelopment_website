@@ -27,7 +27,6 @@ export default function Footer() {
                         E-mail
                     </a>
                 </nav>
-
                 <p className="font-mono text-[11px] text-fog/70">
                     © 2026 META-Development. Všechna práva vyhrazena.
                 </p>
