@@ -195,7 +195,6 @@ export default function Hero() {
                   </span>
                         ))}
                     </h1>
-
                     <motion.p
                         initial="hidden"
                         animate="visible"
