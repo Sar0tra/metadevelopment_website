@@ -45,7 +45,7 @@ export default function Nav() {
           className="flex items-center gap-2.5 font-mono text-xs uppercase tracking-[0.3em] text-bone"
         >
           <LogoMark />
-          META-Development
+          META-DevHouse
         </a>
 
         <nav className="hidden items-center gap-8 font-mono text-xs uppercase tracking-[0.25em] text-fog sm:flex">

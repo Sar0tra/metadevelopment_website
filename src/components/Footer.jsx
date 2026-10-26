@@ -6,10 +6,10 @@ export default function Footer() {
 
                 <div className="flex flex-col gap-1 sm:gap-0.5">
                     <p className="font-mono text-xs uppercase tracking-[0.3em] text-fog">
-                        META-Development
+                        META-DevHouse s.r.o.
                     </p>
                     <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-fog/70">
-                        IČO: 12345678 | Jablonec nad Nisou, Česká republika
+                        Jablonec nad Nisou, Česká republika
                     </p>
                 </div>
                 <nav className="flex items-center gap-6 font-mono text-xs uppercase tracking-widest text-fog">
@@ -28,7 +28,7 @@ export default function Footer() {
                     </a>
                 </nav>
                 <p className="font-mono text-[11px] text-fog/70">
-                    © 2026 META-Development. Všechna práva vyhrazena.
+                    © 2026 META-DevHouse s.r.o.. Všechna práva vyhrazena.
                 </p>
             </div>
         </footer>

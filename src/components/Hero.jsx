@@ -148,7 +148,7 @@ export default function Hero() {
                     'WEBOVÉ PREZENTACE',
                     'WEBOVÉ APLIKACE',
                     'MOBILNÍ APLIKACE',
-                    'META-DEVELOPMENT',
+                    'META-DEVHOUSE',
                     'JABLONEC NAD NISOU, ČR — REMOTE PO CELÉM SVĚTĚ',
                 ]}
             />
@@ -173,13 +173,13 @@ export default function Hero() {
                         transition={{duration: 0.6}}
                         className="mb-8 flex flex-wrap items-center gap-3 font-mono text-xs uppercase tracking-[0.3em] text-fog"
                     >
-                        <span className="text-acid">META-DEVELOPMENT</span>
+                        <span className="text-acid">META-DEVHOUSE</span>
                         <span className="h-1 w-1 rounded-full bg-fog"/>
                         webové a mobilní aplikace &amp; prezentace
                     </motion.div>
 
                     <h1 className="font-display text-[13vw] font-medium leading-none tracking-tight text-bone sm:text-6xl lg:text-[5.4rem] xl:text-[6rem]">
-                        {['Weby, které', 'nejsou šablona.', 'Jsou META.'].map((text, i) => (
+                        {['Weby a aplikace.', 'Promyšlené.', 'Na míru vám.'].map((text, i) => (
                             <span key={text} className="block overflow-hidden pb-[0.2em] -mb-[0.2em]">
                     <motion.span
                         custom={i}
@@ -187,8 +187,8 @@ export default function Hero() {
                         animate="visible"
                         variants={line}
                         className={`block ${
-                            text === 'nejsou šablona.' ? 'italic text-fog' : ''
-                        } ${text === 'Jsou META.' ? 'text-acid' : ''}`}
+                            text === 'Promyšlené.' ? 'italic text-fog' : ''
+                        } ${text === 'Na míru vám.' ? 'text-acid' : ''}`}
                     >
                       {text}
                     </motion.span>
@@ -202,7 +202,7 @@ export default function Hero() {
                         variants={fade}
                         className="mt-10 max-w-md text-lg leading-relaxed text-fog"
                     >
-                        META-Development staví webové prezentace, webové i mobilní
+                        META-DevHouse staví webové prezentace, webové i mobilní
                         aplikace pro týmy, které nechtějí vypadat jako další AI generovaný
                         web. Strategie, design i vývoj pod jednou střechou — bez šablon,
                         bez kompromisů.
